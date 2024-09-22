@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+
+.woody-curvy {
+    font-family: 'Pacifico', cursive;
+    background: linear-gradient(45deg, #ff7300, #3a2da0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.handwritten-wavy {
+    font-family: 'Patrick Hand', cursive;
+    animation: wave 2s infinite;
+}
+
+@keyframes wave {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-5px);
+    }
+}
